@@ -14,38 +14,46 @@
 </head>
 
 <body>
-  <nav>
-    <div class="log">
-      <img src="./assets/logo-desktop.svg" alt="logo" />
-    </div>
-    <div class="menu">
-      <ul class="menuOptios">
-        <li>Home</li>
-        <li>Menu</li>
-        <li>Recompensas</li>
-        <li>Gift Cards</li>
-        <li>Lojas</li>
-      </ul>
-    </div>
-    <div class="navButton jello-horizontal">
+  <header>
+    <nav class="nav">
+      <a href="/">
+        <img src="./assets/logo-desktop.svg" alt="logo" class="logo" />
+      </a>
+      <div class="hamburger">
+        <span class="line" id="line1"></span>
+        <span class="line" id="line2"></span>
+        <span class="line" id="line3"></span>
+        <span class="lineBack" id="lineBack"><img src="./assets/menu-buguer-close.svg"></span>
+      </div>
+      <div class="menu hide">
+        <a href="#">Home</a>
+        <a href="#">Recompensas</a>
+        <a href="#">Menu</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Lojas</a>
+      </div>
+    </nav>
+    <h3 class="theCafe">
+      O café que fará seu código decolar para o próximo nível.
+    </h3>
+    <div class="navButton">
       <button>PEGAR MEU CAFÉ</button>
     </div>
-  </nav>
+  </header>
+
   <main>
+
     <span class="greatCoffe tracking-in-expand">Great Coffe</span>
     <a href="#">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
       <span class="greatCode"> &lt;Great Code/&gt; </span>
     </a>
     <div class="coffeImg">
-      <img src="./assets/c2.png" alt="Rocket Coffe" class="cafe1 heartbeat">
-      <img src="./assets/cups2.png" alt="Rocket Coffe" class="rocketCoffe heartbeat">
-      <img src="./assets/c1.png" alt="Rocket Coffe" class="cafe2 heartbeat">
+      <img src="./assets/c2.png" alt="Rocket Coffe" class="cafe1 heartbeat" />
+      <img src="./assets/cups2.png" alt="Rocket Coffe" class="rocketCoffe heartbeat" />
+      <img src="./assets/c1.png" alt="Rocket Coffe" class="cafe2 heartbeat" />
     </div>
   </main>
+  <script src="./script.js"></script>
 </body>
 
 </html>

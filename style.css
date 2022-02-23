@@ -202,8 +202,7 @@ a {
   width: 250px;
   height: 128px;
 
-  margin: 0 4rem;
-
+  margin: auto auto;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -223,7 +222,7 @@ a {
   height: 3rem;
   padding: 11px 38px;
 
-  margin:0 6rem;
+  margin:auto auto;
 
   background: none;
   border: solid var(--button);
@@ -373,7 +372,7 @@ main {
 .greatCoffe {
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
   letter-spacing: -0.03em;
 
   color: #ffffff;
@@ -386,7 +385,7 @@ main {
   display: inline;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
   letter-spacing: -0.03em;
 
   text-decoration: none;
@@ -496,7 +495,7 @@ a {
   position: relative;
   top: 1.1rem;
 
-  width: 15rem;
+  width: 20rem;
 }
 
 @media screen and (min-width: 1280px) {
